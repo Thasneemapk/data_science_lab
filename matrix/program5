@@ -1,0 +1,24 @@
+import numpy as np
+ar1=np.array([[2,4],[4,6]])
+ar2=np.array([[3,5],[5,2]])
+print(ar1)
+print(ar2)
+print("sum=",np.add(ar1,ar2))
+print("substarction=",np.subtract(ar1,ar2))
+print("multiplication=",np.multiply(ar1,ar2))
+
+
+output:
+C:\Users\ladla\PycharmProjects\sample\venv\Scripts\python.exe C:/Users/ladla/PycharmProjects/sample/matrixoperation.py
+[[2 4]
+ [4 6]]
+[[3 5]
+ [5 2]]
+sum= [[5 9]
+ [9 8]]
+substarction= [[-1 -1]
+ [-1  4]]
+multiplication= [[ 6 20]
+ [20 12]]
+
+Process finished with exit code 0
