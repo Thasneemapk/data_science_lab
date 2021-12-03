@@ -1,0 +1,14 @@
+import numpy as np
+
+ar=np.array([[1, 3, 6],[8, 7, 9],[9 ,5,4]])
+d= np.diag(ar)
+print(d)
+print("sum=",sum(d))
+
+
+output:
+C:\Users\ladla\PycharmProjects\sample\venv\Scripts\python.exe C:/Users/ladla/PycharmProjects/sample/sumdiaganol.py
+[1 7 4]
+sum= 12
+
+Process finished with exit code 0
