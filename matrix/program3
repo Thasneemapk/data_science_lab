@@ -1,0 +1,11 @@
+import numpy as np
+
+ar=np.array([[1, 3, 6],[8, 7, 9]])
+print("sum=",np.sum(ar))
+
+
+output:
+
+sum= 34
+
+Process finished with exit code 0
